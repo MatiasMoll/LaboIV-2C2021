@@ -1,0 +1,25 @@
+<h1>Hola Mundo </h1>
+<div>
+<input type="button" value="Saludar" (click)="saludo()"/>
+<input type="text" [(ngModel)]="title"/>
+<br>
+</div>
+<br><br>
+<div class="mt-5">
+  
+  <label>Edad Uno:</label>
+  <input type="number" [(ngModel)]="numeroUno"/>
+  <br>
+  <br>
+  <label>Edad Dos:</label>
+  <input type="number" [(ngModel)]="numeroDos"/>
+  <br>
+  <br>
+  <label>Edad Promedio:</label>
+  <input type="text" [(ngModel)]="promedio" disabled ="true"/>
+  <br>
+  <br>
+  <input type="button" value="Calcular Promedio" (click)="calcular()" />
+  <br>
+  <input type="button" value="Limpiar textos" (click)="limpiarInput()"/>  
+</div>
